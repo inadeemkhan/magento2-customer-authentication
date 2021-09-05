@@ -1,0 +1,22 @@
+{
+    "name": "hyper/module-auth",
+    "description": "Hyper_Frontend Extension, To include template file into Head tag in magento2.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hyper\\Auth\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
