@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table comment="hyper_auth_auth Table" engine="innodb" name="hyper_auth_auth" resource="default">
+		<column comment="Entity Id" identity="true" name="auth_id" nullable="false" padding="6" unsigned="true" xsi:type="smallint"/>
+		<constraint referenceId="PRIMARY" xsi:type="primary">
+			<column name="auth_id"/>
+		</constraint>
+		<column xsi:type="varchar" name="customer_id" nullable="true" comment="Customer Id" />
+		<column xsi:type="varchar" name="customer_name" nullable="true" comment="Customer Name" />
+		<column xsi:type="varchar" name="customer_email" nullable="true" comment="Customer email" />
+		<column xsi:type="varchar" name="access_token" nullable="true" comment="Access Token" />
+	</table>
+</schema>
