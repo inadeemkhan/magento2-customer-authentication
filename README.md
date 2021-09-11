@@ -2,7 +2,7 @@
 
 Free Magento 2 extension to Authenticate customer and generate Access Token | Nadeem Khan
 
-<img src="https://i.ibb.co/nnVLZnV/Magento2-2.png" alt="Magento2-2" border="0">
+<!-- <img src="https://i.ibb.co/nnVLZnV/Magento2-2.png" alt="Magento2-2" border="0"> -->
 
 ## Features:
 
@@ -30,7 +30,7 @@ If you encounter any problems or bugs, please <a href="https://github.com/magepr
 
 <b>Product View Page</b>
 
-<img src="https://image.ibb.co/fGJvgm/add_to_cart.png" alt="Adding-SS" title="Screenshot 1">
+<!-- <img src="https://image.ibb.co/fGJvgm/add_to_cart.png" alt="Adding-SS" title="Screenshot 1"> -->
 
 ## Prerequisites
 
